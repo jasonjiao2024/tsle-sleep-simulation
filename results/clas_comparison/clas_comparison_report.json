@@ -1,0 +1,42 @@
+{
+  "phase_locking": {
+    "empirical_ecHT_R_mean": 0.8627206408607436,
+    "empirical_ecHT_R_std": 0.045173592703170305,
+    "model_plv_mean": 0.21539843999660166,
+    "model_plv_std": 0.09752871098499276,
+    "note": "ecHT_R measures phase-locking to the stimulation trigger. Model PLV measures phase-locking to the external drive. Empirical values are higher because ecHT measures trigger-locked coherence (closed-loop), while model uses open-loop continuous forcing."
+  },
+  "alpha_modulation": {
+    "empirical_sham_alpha": 0.18904903623101563,
+    "empirical_prepeak_alpha": 0.21880634987226338,
+    "empirical_pretrough_alpha": 0.17644423917269828,
+    "model_sham_alpha": 0.22610832845474904,
+    "model_prepeak_alpha": 0.22589138581580873,
+    "model_pretrough_alpha": 0.22615685802068408,
+    "empirical_peak_minus_sham": 0.029757313641247757,
+    "model_peak_minus_sham": -0.00021694263894031507,
+    "direction_match": false
+  },
+  "sleep_depth": {
+    "empirical_stage_diff_peak_minus_sham": -0.30625,
+    "model_sdr_diff_peak_minus_sham": 0.005063286496709729,
+    "both_positive": false,
+    "note": "Empirical uses sleep stage (0=wake, 1=N1, 2=N2, 3=N3). Model uses SDR (delta+theta)/(alpha+beta). Both are proxies for sleep depth."
+  },
+  "aperiodic_slope": {
+    "empirical_exponent_sham": -1.8488017855224173,
+    "empirical_exponent_peak": -1.7891608868625155,
+    "empirical_diff": 0.05964089865990174,
+    "note": "Model does not directly compute aperiodic exponent. SDR serves as a proxy: higher SDR implies steeper spectral slope."
+  },
+  "alpha_frequency": {
+    "empirical_mean_iaf": 9.69584368026669,
+    "empirical_std_iaf": 0.3604107336035512,
+    "empirical_range": [
+      9.021181355897918,
+      10.677751584284353
+    ],
+    "model_target_freq": 10.0,
+    "note": "Empirical IAF from off-periods. Model uses 10 Hz as alpha drive."
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "peak_frequency": 12.1,
+  "omnibus_tests": {
+    "sdre": {
+      "test_statistic": 30.976744186045835,
+      "p_value": 0.8722967031123352,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "delta_power": {
+      "test_statistic": 31.919179657550558,
+      "p_value": 0.8444757715949105,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "theta_power": {
+      "test_statistic": 26.158062867365516,
+      "p_value": 0.9653877116252862,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "alpha_power": {
+      "test_statistic": 25.833439815996826,
+      "p_value": 0.9689614582812409,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "beta_power": {
+      "test_statistic": 41.08772041911652,
+      "p_value": 0.4667776313511331,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "plv": {
+      "test_statistic": 26.61442627140059,
+      "p_value": 0.9598596518199758,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "order_parameter": {
+      "test_statistic": 24.771658573983586,
+      "p_value": 0.978738800107163,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    },
+    "sdr": {
+      "test_statistic": 30.976744186045835,
+      "p_value": 0.8722967031123352,
+      "method": "friedman",
+      "n_subjects": 208,
+      "n_frequencies": 42
+    }
+  },
+  "peak_vs_neighbors": [
+    {
+      "n": 208,
+      "mean_diff": 0.07478242768617167,
+      "ci_low": 0.020460832226784242,
+      "ci_high": 0.1291040231455591,
+      "p_value": 0.007206555866036982,
+      "cohens_d": 0.18818718248807376,
+      "t_statistic": 2.7140741433833955,
+      "metric": "sdre",
+      "p_value_fdr": 0.02882622346414795,
+      "significant_fdr": true
+    },
+    {
+      "n": 208,
+      "mean_diff": 0.0024387709241204328,
+      "ci_low": -0.00014132577283245198,
+      "ci_high": 0.0050188676210733175,
+      "p_value": 0.06380798057201231,
+      "cohens_d": 0.12921056430120564,
+      "t_statistic": 1.863501259678535,
+      "metric": "delta_power",
+      "p_value_fdr": 0.1701546148586995,
+      "significant_fdr": false
+    },
+    {
+      "n": 208,
+      "mean_diff": -0.0007309138972217933,
+      "ci_low": -0.0023685379994116277,
+      "ci_high": 0.000906710204968041,
+      "p_value": 0.37991923044552234,
+      "cohens_d": -0.061011962582696345,
+      "t_statistic": -0.8799270380344081,
+      "metric": "theta_power",
+      "p_value_fdr": 0.37991923044552234,
+      "significant_fdr": false
+    },
+    {
+      "n": 208,
+      "mean_diff": -0.00105658427170476,
+      "ci_low": -0.002559873614305846,
+      "ci_high": 0.00044670507089632607,
+      "p_value": 0.16734229139029597,
+      "cohens_d": -0.09607813412090191,
+      "t_statistic": -1.3856585560952726,
+      "metric": "alpha_power",
+      "p_value_fdr": 0.26774766622447355,
+      "significant_fdr": false
+    },
+    {
+      "n": 208,
+      "mean_diff": -0.0006512727551938742,
+      "ci_low": -0.0017399156822397862,
+      "ci_high": 0.0004373701718520378,
+      "p_value": 0.23958081362412426,
+      "cohens_d": -0.08177874712166859,
+      "t_statistic": -1.179429863961517,
+      "metric": "beta_power",
+      "p_value_fdr": 0.2738066441418563,
+      "significant_fdr": false
+    },
+    {
+      "n": 208,
+      "mean_diff": 0.009988141462863035,
+      "ci_low": -0.0015713019482554054,
+      "ci_high": 0.021547584873981476,
+      "p_value": 0.08997508571999391,
+      "cohens_d": 0.11811655146678318,
+      "t_statistic": 1.703501131177872,
+      "metric": "plv",
+      "p_value_fdr": 0.17995017143998782,
+      "significant_fdr": false
+    },
+    {
+      "n": 208,
+      "mean_diff": 0.00642845958192556,
+      "ci_low": -0.0038929308032086543,
+      "ci_high": 0.016749849967059773,
+      "p_value": 0.22087851511530612,
+      "cohens_d": 0.08513962057584587,
+      "t_statistic": 1.2279010702390447,
+      "metric": "order_parameter",
+      "p_value_fdr": 0.2738066441418563,
+      "significant_fdr": false
+    },
+    {
+      "n": 208,
+      "mean_diff": 0.07478242768617166,
+      "ci_low": 0.02046083222678423,
+      "ci_high": 0.12910402314555908,
+      "p_value": 0.007206555866036988,
+      "cohens_d": 0.18818718248807373,
+      "t_statistic": 2.714074143383395,
+      "metric": "sdr",
+      "p_value_fdr": 0.02882622346414795,
+      "significant_fdr": true
+    }
+  ],
+  "effect_sizes": {
+    "sdre": {
+      "cohens_d": 0.08832498320832945,
+      "mean": 0.050183931313879444,
+      "std": 0.5681736864360578,
+      "n": 208
+    },
+    "delta_power": {
+      "cohens_d": 4.4606215086890675,
+      "mean": 0.625720084730257,
+      "std": 0.14027643536027112,
+      "n": 208
+    },
+    "theta_power": {
+      "cohens_d": 2.601727590246373,
+      "mean": 0.1375059429528588,
+      "std": 0.05285178335670321,
+      "n": 208
+    },
+    "alpha_power": {
+      "cohens_d": 1.9555688833635037,
+      "mean": 0.11999040981385926,
+      "std": 0.06135831411240311,
+      "n": 208
+    },
+    "beta_power": {
+      "cohens_d": 1.6037119500571033,
+      "mean": 0.11678356250302481,
+      "std": 0.07282078461712935,
+      "n": 208
+    },
+    "plv": {
+      "cohens_d": 2.948194899989938,
+      "mean": 0.29195971158332207,
+      "std": 0.09902999004045442,
+      "n": 208
+    },
+    "order_parameter": {
+      "cohens_d": 3.288036660845911,
+      "mean": 0.2829270277635602,
+      "std": 0.08604740668882073,
+      "n": 208
+    },
+    "sdr": {
+      "cohens_d": 1.51927524277165,
+      "mean": 4.408822760904778,
+      "std": 2.901924968422218,
+      "n": 208
+    }
+  },
+  "n_comparisons": 8,
+  "fdr_method": "benjamini_hochberg"
+}

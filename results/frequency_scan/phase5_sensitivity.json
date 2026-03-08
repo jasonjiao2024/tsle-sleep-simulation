@@ -1,0 +1,74 @@
+{
+  "F=0.05_N=32": {
+    "forcing": 0.05,
+    "n_oscillators": 32,
+    "peak_freq": 13.4,
+    "peak_sdre": 0.030841617518173825
+  },
+  "F=0.05_N=64": {
+    "forcing": 0.05,
+    "n_oscillators": 64,
+    "peak_freq": 12.8,
+    "peak_sdre": 0.06174185703578582
+  },
+  "F=0.05_N=128": {
+    "forcing": 0.05,
+    "n_oscillators": 128,
+    "peak_freq": 12.8,
+    "peak_sdre": 0.07124850547290276
+  },
+  "F=0.10_N=32": {
+    "forcing": 0.1,
+    "n_oscillators": 32,
+    "peak_freq": 11.6,
+    "peak_sdre": 0.05228571253993997
+  },
+  "F=0.10_N=64": {
+    "forcing": 0.1,
+    "n_oscillators": 64,
+    "peak_freq": 13.5,
+    "peak_sdre": 0.0431272531954607
+  },
+  "F=0.10_N=128": {
+    "forcing": 0.1,
+    "n_oscillators": 128,
+    "peak_freq": 13.0,
+    "peak_sdre": 0.15314425305690113
+  },
+  "F=0.15_N=32": {
+    "forcing": 0.15,
+    "n_oscillators": 32,
+    "peak_freq": 12.9,
+    "peak_sdre": 0.03731836864489434
+  },
+  "F=0.15_N=64": {
+    "forcing": 0.15,
+    "n_oscillators": 64,
+    "peak_freq": 12.7,
+    "peak_sdre": 0.08005362412604154
+  },
+  "F=0.15_N=128": {
+    "forcing": 0.15,
+    "n_oscillators": 128,
+    "peak_freq": 11.8,
+    "peak_sdre": 0.09078600032940573
+  },
+  "F=0.20_N=32": {
+    "forcing": 0.2,
+    "n_oscillators": 32,
+    "peak_freq": 12.5,
+    "peak_sdre": 0.023538382778522916
+  },
+  "F=0.20_N=64": {
+    "forcing": 0.2,
+    "n_oscillators": 64,
+    "peak_freq": 11.6,
+    "peak_sdre": 0.04630010098344825
+  },
+  "F=0.20_N=128": {
+    "forcing": 0.2,
+    "n_oscillators": 128,
+    "peak_freq": 13.2,
+    "peak_sdre": 0.0434571746369267
+  }
+}

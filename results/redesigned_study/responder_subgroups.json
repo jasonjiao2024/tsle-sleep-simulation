@@ -1,0 +1,87 @@
+{
+  "high_beta": {
+    "progressive": {
+      "mean_swa_enhancement": 7.727957656824832,
+      "std_swa_enhancement": 11.90472779654908,
+      "n": 104
+    },
+    "fixed_delta": {
+      "mean_swa_enhancement": 7.814414180756175,
+      "std_swa_enhancement": 12.187951305025441,
+      "n": 104
+    },
+    "fixed_delta_ssa_resets": {
+      "mean_swa_enhancement": 15.21792329117052,
+      "std_swa_enhancement": 12.952070183999174,
+      "n": 104
+    },
+    "pulsed_progressive": {
+      "mean_swa_enhancement": 3.5821928094071813,
+      "std_swa_enhancement": 11.574118069509723,
+      "n": 104
+    },
+    "pulsed_fixed_delta": {
+      "mean_swa_enhancement": 5.136300682463633,
+      "std_swa_enhancement": 11.008611755413876,
+      "n": 104
+    },
+    "adaptive_protocol": {
+      "mean_swa_enhancement": 6.909223629976942,
+      "std_swa_enhancement": 12.81896911043646,
+      "n": 104
+    },
+    "ssa_reset_fast": {
+      "mean_swa_enhancement": 14.100590718381408,
+      "std_swa_enhancement": 12.24247975046571,
+      "n": 104
+    },
+    "ssa_reset_slow": {
+      "mean_swa_enhancement": 18.535286345443854,
+      "std_swa_enhancement": 14.215728091156176,
+      "n": 104
+    }
+  },
+  "low_beta": {
+    "progressive": {
+      "mean_swa_enhancement": 11.203711168512585,
+      "std_swa_enhancement": 10.730897551718135,
+      "n": 104
+    },
+    "fixed_delta": {
+      "mean_swa_enhancement": 8.424626903377886,
+      "std_swa_enhancement": 12.386988788979716,
+      "n": 104
+    },
+    "fixed_delta_ssa_resets": {
+      "mean_swa_enhancement": 19.913277674198312,
+      "std_swa_enhancement": 10.84289280077103,
+      "n": 104
+    },
+    "pulsed_progressive": {
+      "mean_swa_enhancement": 6.198919898270086,
+      "std_swa_enhancement": 11.473480839039635,
+      "n": 104
+    },
+    "pulsed_fixed_delta": {
+      "mean_swa_enhancement": 6.690494462810313,
+      "std_swa_enhancement": 11.539581188366595,
+      "n": 104
+    },
+    "adaptive_protocol": {
+      "mean_swa_enhancement": 9.49718664970044,
+      "std_swa_enhancement": 11.498523298518487,
+      "n": 104
+    },
+    "ssa_reset_fast": {
+      "mean_swa_enhancement": 19.47076665799583,
+      "std_swa_enhancement": 12.346200713394945,
+      "n": 104
+    },
+    "ssa_reset_slow": {
+      "mean_swa_enhancement": 20.42107647113947,
+      "std_swa_enhancement": 14.393531710272383,
+      "n": 104
+    }
+  },
+  "median_beta_threshold": 0.11486551296968375
+}

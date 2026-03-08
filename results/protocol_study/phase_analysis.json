@@ -1,0 +1,54 @@
+{
+  "alpha_10hz": {
+    "n_epochs": 10,
+    "frequency": 10.0,
+    "mean_delta_power": 0.6003212424090201,
+    "mean_theta_power": 0.22018902143766045,
+    "mean_alpha_power": 0.14879502169089218,
+    "mean_beta_power": 0.030694714462427306,
+    "mean_plv": 0.14497419911362538,
+    "std_plv": 0.07519379495997197,
+    "mean_order_parameter": 0.016393555599555097,
+    "mean_sdr": 4.946296150599753,
+    "mean_sdre": 0.395360234726385
+  },
+  "alpha_8.5hz": {
+    "n_epochs": 16,
+    "frequency": 8.5,
+    "mean_delta_power": 0.6249941916549623,
+    "mean_theta_power": 0.23107281814953884,
+    "mean_alpha_power": 0.11986963711353403,
+    "mean_beta_power": 0.024063353081964913,
+    "mean_plv": 0.14886096713280816,
+    "std_plv": 0.07722737592585037,
+    "mean_order_parameter": 0.018025987576143807,
+    "mean_sdr": 5.821124501844289,
+    "mean_sdre": 1.2701885859709199
+  },
+  "theta_6hz": {
+    "n_epochs": 20,
+    "frequency": 6.0,
+    "mean_delta_power": 0.6202771127766786,
+    "mean_theta_power": 0.30676774508312415,
+    "mean_alpha_power": 0.057914371516684354,
+    "mean_beta_power": 0.015040770623512938,
+    "mean_plv": 0.15457332419451078,
+    "std_plv": 0.07932119876616091,
+    "mean_order_parameter": 0.021620390320836978,
+    "mean_sdr": 9.526146497017859,
+    "mean_sdre": 4.9752105811444896
+  },
+  "delta_2hz": {
+    "n_epochs": 14,
+    "frequency": 2.0,
+    "mean_delta_power": 0.8094838699117513,
+    "mean_theta_power": 0.14810897148159577,
+    "mean_alpha_power": 0.034883630066424066,
+    "mean_beta_power": 0.007523528540228797,
+    "mean_plv": 0.17418962773809718,
+    "std_plv": 0.09671720820829213,
+    "mean_order_parameter": 0.03427096832195321,
+    "mean_sdr": 12.669293280368617,
+    "mean_sdre": 8.118357364495251
+  }
+}

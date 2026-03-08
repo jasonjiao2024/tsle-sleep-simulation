@@ -1,0 +1,45 @@
+{
+  "n_conditions": 16,
+  "conditions": [
+    "active_sham",
+    "adaptive_protocol",
+    "fixed_alpha",
+    "fixed_delta",
+    "fixed_delta_ssa_resets",
+    "fixed_theta",
+    "no_stim",
+    "progressive",
+    "progressive_extended",
+    "progressive_hybrid",
+    "pulsed_fixed_delta",
+    "pulsed_progressive",
+    "reverse",
+    "sham",
+    "ssa_reset_fast",
+    "ssa_reset_slow"
+  ],
+  "pulsed_progressive_mean_pulses": 6.290104166666667,
+  "pulsed_progressive_mean_duty_cycle": 0.021226929754273503,
+  "pulsed_fixed_delta_mean_pulses": 6.240024038461539,
+  "pulsed_fixed_delta_mean_duty_cycle": 0.02106189903846154,
+  "ssa_resets_n_drops": 23,
+  "sham_hierarchy_session_swa_enhancement": {
+    "no_stim": 2.025546303505746,
+    "sham": 4.171448294662311,
+    "active_sham": 8.125074726075411,
+    "fixed_delta": 8.119520542067031
+  },
+  "sham_hierarchy_ordered_session_swa_enhancement": false,
+  "sham_hierarchy_session_sdre": {
+    "no_stim": 0.025669962469698934,
+    "sham": 0.9815104071299781,
+    "active_sham": 0.560838313092201,
+    "fixed_delta": 1.0592392977640939
+  },
+  "sham_hierarchy_ordered_session_sdre": false,
+  "ssa_sensitivity_swa": {
+    "fixed_delta_ssa_resets": 17.565600482684417,
+    "ssa_reset_fast": 16.78567868818862,
+    "ssa_reset_slow": 19.47818140829166
+  }
+}

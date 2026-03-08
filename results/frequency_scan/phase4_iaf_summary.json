@@ -1,0 +1,8 @@
+{
+  "population_peak_freq": 12.476972510572859,
+  "mean_iaf": 10.494088887976766,
+  "std_iaf": 0.1928798146923942,
+  "mean_offset_from_iaf": 1.9828836225960935,
+  "std_offset_from_iaf": 0.19287981469239415,
+  "n_subjects": 208
+}

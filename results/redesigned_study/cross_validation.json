@@ -1,0 +1,87 @@
+{
+  "duration": "60min",
+  "session_swa_enhancement": {
+    "progressive": {
+      "discovery_effect": 7.0260585158003,
+      "validation_effect": 8.59259952342636,
+      "same_direction": true
+    },
+    "fixed_delta": {
+      "discovery_effect": 6.767964028619761,
+      "validation_effect": 4.219057186216795,
+      "same_direction": true
+    },
+    "fixed_delta_ssa_resets": {
+      "discovery_effect": 16.88757419255721,
+      "validation_effect": 11.791498505598366,
+      "same_direction": true
+    },
+    "pulsed_progressive": {
+      "discovery_effect": 3.7011169176944243,
+      "validation_effect": 0.5391127647635208,
+      "same_direction": true
+    },
+    "pulsed_fixed_delta": {
+      "discovery_effect": 4.163341791577872,
+      "validation_effect": 3.121486724870559,
+      "same_direction": true
+    },
+    "adaptive_protocol": {
+      "discovery_effect": 6.993680848746659,
+      "validation_effect": 3.9076339654366157,
+      "same_direction": true
+    },
+    "ssa_reset_fast": {
+      "discovery_effect": 16.018115202277656,
+      "validation_effect": 11.26065291028285,
+      "same_direction": true
+    },
+    "ssa_reset_slow": {
+      "discovery_effect": 18.58050444497027,
+      "validation_effect": 14.315107667545815,
+      "same_direction": true
+    }
+  },
+  "session_sdre": {
+    "progressive": {
+      "discovery_effect": 1.219029766610842,
+      "validation_effect": 0.6775060493913357,
+      "same_direction": true
+    },
+    "fixed_delta": {
+      "discovery_effect": 1.2007936497249059,
+      "validation_effect": 0.5683816969695191,
+      "same_direction": true
+    },
+    "fixed_delta_ssa_resets": {
+      "discovery_effect": 1.457451234364166,
+      "validation_effect": 0.7453604529794546,
+      "same_direction": true
+    },
+    "pulsed_progressive": {
+      "discovery_effect": 1.156520652152791,
+      "validation_effect": 0.5161253360866767,
+      "same_direction": true
+    },
+    "pulsed_fixed_delta": {
+      "discovery_effect": 1.1452908686753545,
+      "validation_effect": 0.5675678632868089,
+      "same_direction": true
+    },
+    "adaptive_protocol": {
+      "discovery_effect": 1.2194135239124864,
+      "validation_effect": 0.6163258334362368,
+      "same_direction": true
+    },
+    "ssa_reset_fast": {
+      "discovery_effect": 1.4443487471512553,
+      "validation_effect": 0.7516249244427258,
+      "same_direction": true
+    },
+    "ssa_reset_slow": {
+      "discovery_effect": 1.5150675785658736,
+      "validation_effect": 0.7785054837685246,
+      "same_direction": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "session_sdre": {
+    "discovery_effect": 8.526089606090656,
+    "validation_effect": 5.6144269860826554,
+    "discovery_cohens_d": 2.623600850103393,
+    "validation_cohens_d": 2.2327312549734155,
+    "same_direction": true,
+    "n_discovery": 153,
+    "n_validation": 55
+  },
+  "cumulative_sleep_depth": {
+    "discovery_effect": 6643.58287649424,
+    "validation_effect": 5211.2801680051125,
+    "discovery_cohens_d": 2.33025538478438,
+    "validation_cohens_d": 2.10149538329843,
+    "same_direction": true,
+    "n_discovery": 153,
+    "n_validation": 55
+  },
+  "final_delta_power": {
+    "discovery_effect": 0.20546867472757324,
+    "validation_effect": 0.155341701098061,
+    "discovery_cohens_d": 4.099966209039633,
+    "validation_cohens_d": 2.3775232381447027,
+    "same_direction": true,
+    "n_discovery": 153,
+    "n_validation": 55
+  }
+}
